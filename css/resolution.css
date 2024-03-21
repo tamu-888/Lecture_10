@@ -126,6 +126,7 @@
 
   .how-cards {
     flex-direction: column;
+    row-gap: 40px;
   }
 
   .how-cardone {
@@ -147,7 +148,7 @@
 
   .how-cardtwo-mobile {
     display: block;
-    margin: 0px auto;
+    margin: 0px auto 65px auto;
   }
 
   /* benefites */
