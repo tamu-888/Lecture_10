@@ -1,0 +1,293 @@
+@media(max-width: 768px) {
+    .header-content {
+        padding: 0 20px;
+        border: 2px solid green;
+    }
+
+    .logo {
+        width: 93px;
+    }
+
+    .menu-bar {
+        display: block;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    /* main */
+    .main {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .text-content h1 {
+        font-size: 34.89px;
+        font-weight: 800;
+        line-height: 37.87px;
+        text-align: center;
+        margin-top: 31px;
+    }
+
+    .text-content p {
+
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        margin: 24px 0px 24px 0px;
+
+    }
+
+    .btn-main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .download {
+        padding: 13px 32px;
+        color: #fff;
+        background-color: #000;
+        display: inline-flex;
+        align-items: center;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 24px;
+        column-gap: 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    /* apply */
+
+    .newsletter {
+        height: 249px;
+        flex-direction: column;
+        padding: 22px 20px;
+        align-items: start;
+        row-gap: 25px;
+    }
+
+    .input-info {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .number-input {
+        width: 280px;
+        height: 48px;
+        border-radius: 4px;
+    }
+
+    .number-input ::placeholder {
+        font-size: 16px;
+        font-weight: 600;
+        text-align: left;
+        color: #DADADA;
+        opacity: 0px;
+    }
+
+    .apply-btn {
+        color: #fff;
+        width: 280px;
+        height: 48px;
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 1);
+        font-weight: 700;
+    }
+
+    /* HOW TERE WORKS */
+
+    .how-cardtwo {
+        display: none;
+    }
+
+    .how-cards {
+        flex-direction: column;
+    }
+
+    .how-cardone {
+        align-items: center;
+        width: 100%;
+    }
+
+    .how-carthree {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .left-descr,
+    .right-descr {
+        text-align: center;
+    }
+
+    .how-cardtwo-mobile {
+        display: block;
+        margin: 64px auto;
+    }
+
+    /* benefites */
+
+    .benefites {
+        row-gap: 20px;
+    }
+
+    .benefites h2 {
+        margin: 0px auto;
+        color: rgba(117, 191, 122, 1);
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 50.35px;
+    }
+
+    .benefites span {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 50.35px;
+        color: #000000;
+    }
+
+    .card-one {
+        width: 320px;
+        height: 477px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 1);
+        padding: 55px 18px 57px 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .card-two {
+        width: 320px;
+        height: 477px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 1);
+        padding: 33px 18px 57px 18px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .card-three {
+        width: 320px;
+        height: 477px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 1);
+        padding: 33px 18px 57px 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .card1_header h3 {
+        color: #75BF7A;
+        font-size: 64.77px;
+        font-weight: 500;
+        line-height: 87.44px;
+        width: 79px;
+        height: 88px;
+
+    }
+
+    .card1_header h4 {
+        color: #000000;
+        font-size: 24.98px;
+        font-weight: 600;
+        line-height: 23.92px;
+        width: 168px;
+        height: 41px;
+
+    }
+
+    .card1_text p {
+        font-size: 16.19px;
+        font-weight: 500;
+        line-height: 16.93px;
+        text-align: center;
+        width: 283.36px;
+        height: 34.59px;
+        margin-bottom: 20px;
+    }
+
+    .card2_header h3 {
+        color: #75BF7A;
+        font-size: 64.77px;
+        font-weight: 500;
+        line-height: 87.44px;
+
+        width: 79px;
+        height: 88px;
+
+    }
+
+    .card2_header h4 {
+        color: #000000;
+        font-size: 24.98px;
+        font-weight: 600;
+        line-height: 23.92px;
+        width: 168px;
+        height: 41px;
+
+    }
+
+    .card2_text p {
+        font-size: 16.19px;
+        font-weight: 500;
+        line-height: 16.93px;
+        text-align: center;
+        width: 283.36px;
+        height: 34.59px;
+        margin-bottom: 20px;
+    }
+
+    .card3_header h3 {
+        color: #75BF7A;
+        font-size: 64.77px;
+        font-weight: 500;
+        line-height: 87.44px;
+
+        width: 79px;
+        height: 88px;
+
+    }
+
+    .card3_header h4 {
+        color: #000000;
+        font-size: 24.98px;
+        font-weight: 600;
+        line-height: 23.92px;
+        width: 168px;
+        height: 41px;
+
+    }
+
+    .card3_text p {
+        font-size: 16.19px;
+        font-weight: 500;
+        line-height: 16.93px;
+        text-align: center;
+        width: 283.36px;
+        height: 34.59px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+
+}
